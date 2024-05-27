@@ -1,5 +1,7 @@
 
 
+//import 'dart:html_common';
+
 void main(){
   
   
@@ -31,8 +33,9 @@ void main(){
 // else{
 //   print("error");
 // }
-
-
+List <dynamic> class1=[1,2,6,7,'abc',34,'dfk',23];
+List <dynamic> newlist = class1.removeWhere((element) => String).tolist(); 
+print(class1);
 // map.......
 Map <String,int> inventory={
   'apple' : 30, 
@@ -40,6 +43,7 @@ Map <String,int> inventory={
   'grapes': 10
 };
 print(inventory);
+List <String> secondlist = ['abc','xyz','dfg'];
 
 
 
